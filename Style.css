@@ -1,0 +1,325 @@
+body
+{
+    
+}
+               /* Start header */
+
+.header .slider /*
+{
+    background-color: #595E65; 
+    height: 500px;
+}  */
+
+.container
+{
+    margin: auto;
+    width: auto;
+}
+.header .navbar
+{
+    background-color: #19BCDB;
+    color: aliceblue;
+    overflow: hidden;
+}   
+.header .navbar h2 {float: left;}  
+     
+.header .navbar h2 span {color: #bc4032;}
+   
+.header .navbar ul
+{
+    overflow: hidden;
+    float: right;
+    padding-left:0;
+    list-style: none;
+}
+     
+.header .navbar ul li
+{
+    float: left;
+    padding: 10px;
+    font-family:sans-serif;
+    font-style:normal;
+    font-family:serif;
+}
+.header .navbar ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+           /* End header */
+
+
+
+           /* Start features */
+
+.features
+{
+    background-image: url(https://cdn2.howtostartanllc.com/images/business-ideas/business-idea-images/Pharmacy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 400px;
+}
+.features .container
+{
+    float: inherit;
+    padding: 1px;
+}
+.features h2
+{
+    overflow:hidden;
+    padding-top: 18px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 60;
+    color:aliceblue;
+}
+.features h3
+{
+    overflow:hidden;
+    padding-top: 0;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 60;
+    color: #19BCDB;
+}
+.features p
+{
+    overflow:hidden;
+    padding-top: 0;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 60;
+    font-family:serif;
+    color: black;       
+}
+.features button
+{
+    overflow:hidden;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 60;
+    display: block;
+    width: 200px;
+    color: #EC5C42;
+    text-decoration: none;
+    border: 3px solid red;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+           /* End features */
+
+
+           /* Start Products */
+
+
+
+.products
+{
+    background-color: #BDE1F1;
+}
+.products .Pro
+{
+    overflow: hidden;
+    text-align: center;
+    float: right;
+    background-image:url(http://webdesign-finder.com/pharmaton/wp-content/uploads/2017/10/01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.products h2
+{
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    font-family: inherit;
+}
+.products p
+{
+    overflow: hidden;
+    text-align: center;
+    font-size: 25px;
+    color: #1BB0DB;
+}
+.products .Pro .more
+{
+    overflow: hidden;
+    margin: 20px;
+}
+.products .Pro .more > div
+{
+    float: left;
+    width: 44%;
+    min-height: 150px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+           /* End Products */
+
+
+           /* Start Covid-19 */
+.Covid-19
+{
+    
+}
+
+
+.Covid-19 .Injuries
+{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-left: auto;    
+}
+
+.Covid-19 .Injuries > div
+{
+    float: left;
+    width: 33.3%;
+    font-family: sans-serif;
+    font-size: 50px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    background-color:#3DABC0;
+    color: aliceblue; 
+}
+
+.Covid-19 .Injuries > div span
+{
+    font-size: 30px;
+}
+
+
+           /* End Covid-19 */
+
+
+           /* Start Contacts */
+
+.contacts
+{
+ background-image: url(http://wallpaperstock.net/simple-gaussian-blur_wallpapers_42657_1920x1080.jpg);
+ background-size: cover;
+ background-attachment: fixed;
+ height: 900px;    
+}
+
+
+.contacts .Info
+{
+    
+    background-size: cover;
+    text-align: center;
+}
+
+.contacts h2
+{
+    text-align: center;
+    color: #11333A;
+    font-size: 50px;
+    padding-top: 650px;
+}
+
+.contacts .Info .More > div
+{
+    float: left;
+    width: 33.3%;
+    min-height: 150px;
+    font-size: 20px;
+    color: #c42303;
+    font-family: monospace;
+}
+
+.contacts .Info .More > div span
+{
+    color: #4266f7;
+}
+
+           /* End Contacts */
+
+
+           /* Start About */
+
+.About
+{
+    padding-top: 40px;
+    background-color: #11333A;
+    height: 250px;
+    padding-bottom: 0
+}
+.About .All
+{
+    float: left;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.About .All > div
+{
+    width: 30%;
+    overflow: hidden;
+}
+.About .Us
+{
+    float: left;
+    padding-left: 30px;
+    font-size: 20px;
+    overflow: hidden;
+    padding-right: 0;
+    margin-right: auto;
+    color: #FFFFFF;
+}
+.About .Us p
+{
+    padding-right: 30px;
+    font-size: 20px;
+    color: #819899;
+}
+
+.About .Follow
+{
+    float: right;
+    padding-top: 0;
+    padding-right: 0;
+    color: #FFFFFF;
+}
+.About .Follow li
+{
+    padding: 5px;
+    list-style: none;
+}
+.About .Follow li a
+{
+    text-decoration: none;
+    color:#819899;
+}
+
+           /* End About */  
+
+
+           /* Start CopyRight */
+.Copy
+{
+    height: 70px;
+    padding-top: 0;
+    background-color: #0E292E;
+    overflow: hidden;
+}
+
+.Copy p
+{
+    text-align: center;
+    color: #819899;
+    padding-top: 5px;
+}
+
+           /* End CopyRight */
